@@ -1,10 +1,12 @@
 import { Element } from 'react-scroll'
+import ProjectSection from './ProjectSection'
+import AboutSection from './AboutSection'
 
 const MainPage = function () {
     return (
-        <section className="min-h-screen bg-slate-500 text-center">
-            <Element name='about'>about</Element>
-            <Element name='projects'>projects</Element>
+        <section className="min-h-screen bg-black text-center">
+            <Element name='about'><AboutSection /></Element>
+            <Element name='projects'><ProjectSection /></Element>
             <Element name='tech'>tech</Element>
         </section>
     )
