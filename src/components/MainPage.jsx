@@ -8,7 +8,7 @@ const MainPage = function () {
         <section className="relative min-h-screen bg-black text-center overflow-hidden z-0">
             <div className="absolute inset-0 -z-10 w-full h-full">
                 <Particles
-                    particleColors={['#ffffff', '#ffffff']}
+                    particleColors={['#f2233a', '#f99768']}
                     particleCount={1000}
                     particleSpread={10}
                     speed={0.03}
