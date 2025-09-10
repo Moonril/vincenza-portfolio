@@ -2,6 +2,7 @@ import { Element } from 'react-scroll'
 import ProjectSection from './ProjectSection'
 import AboutSection from './AboutSection'
 import Particles from './Particles';
+import SkillSection from './SkillSection';
 
 const MainPage = function () {
     return (
@@ -9,8 +10,8 @@ const MainPage = function () {
             <div className="absolute inset-0 -z-10 w-full h-full">
                 <Particles
                     particleColors={['#f2233a', '#f99768']}
-                    particleCount={1000}
-                    particleSpread={10}
+                    particleCount={1300}
+                    particleSpread={5}
                     speed={0.03}
                     particleBaseSize={90}
                     moveParticlesOnHover={false}
@@ -20,7 +21,7 @@ const MainPage = function () {
             </div>
             <Element name='about'><AboutSection /></Element>
             <Element name='projects'><ProjectSection /></Element>
-            <Element name='tech'>tech</Element>
+            <Element name='tech'><SkillSection /></Element>
 
         </section>
     )

@@ -6,7 +6,7 @@ const ProjectSection = function () {
             <h3 className=" text-4xl pb-2 font-bold">My Projects</h3>
             <p className="py-3 text-lg">A collection of projects that showcase my skills in web development in chronological order. Some were completed during the Epicode Full-Stack course,others are personal projects.</p>
             {/* cards container */}
-            <div className="flex flex-row justify-center p-5 gap-5 flex-wrap">
+            <div className="flex flex-row justify-center p-2 md:p-5 gap-5 flex-wrap">
                 {/* cards */}
                 {/* Spotify vanilla */}
                 <div className="bg-stone-950 p-4 rounded-2xl border border-gray-400 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
@@ -15,7 +15,8 @@ const ProjectSection = function () {
                         <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Front End</div>
                     </div>
                     <h5 className="pt-4 pb-2 text-xl font-bold text-left">Spotify clone with Vanilla JS</h5>
-                    <p className="py-2 text-left">team effort Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequatur fugit tenetur exercitationem quasi a rerum doloribus
+                    <p className="py-2 text-left">
+                        Team-built clone of the Spotify app, complete with playlists, artists, albums and music previews.
                     </p>
                     
                     <div className="p-2 flex flex-row justify-start flex-wrap gap-2">
@@ -38,7 +39,7 @@ const ProjectSection = function () {
                         <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Front End</div>
                     </div>
                     <h5 className="pt-4 pb-2 text-xl font-bold text-left">Netflix clone with React</h5>
-                    <p className="py-2 text-left">team effort Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequatur fugit tenetur exercitationem quasi a rerum doloribus
+                    <p className="py-2 text-left">This is one of the first projects completed with React: A netflix clone using React, Javascript and Bootstrap. The Omdb API is used to source movie posters and information. 
                     </p>
                     <div className="p-2 flex flex-row justify-start flex-wrap gap-2">
                         <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 64 64">
@@ -60,7 +61,7 @@ const ProjectSection = function () {
                         <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Front End</div>
                     </div>
                     <h5 className="pt-4 pb-2 text-xl font-bold text-left">Weather App</h5>
-                    <p className="py-2 text-left">team effort Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequatur fugit tenetur exercitationem quasi a rerum doloribus
+                    <p className="py-2 text-left">A weather app made using React, Javascript and Bootstrap. Provides current weather and updates every three hours for the next five days.
                     </p>
                     <div className="p-2 flex flex-row justify-start flex-wrap gap-2">
                         <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 64 64">
@@ -81,7 +82,7 @@ const ProjectSection = function () {
                         <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Front End</div>
                     </div>
                     <h5 className="pt-4 pb-2 text-xl font-bold text-left">Apple Music clone</h5>
-                    <p className="py-2 text-left">team effort Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequatur fugit tenetur exercitationem quasi a rerum doloribus
+                    <p className="py-2 text-left">A music app clone made using React, Javascript, Redux and Bootstrap. I used the API Deezer to source music/artists data and songs previews.
                     </p>
                     <div className="p-2 flex flex-row justify-start flex-wrap gap-2">
                         <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 64 64">
@@ -104,7 +105,7 @@ const ProjectSection = function () {
                         <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Full Stack</div>
                     </div>
                     <h5 className="pt-4 pb-2 text-xl font-bold text-left">Camping Elicrisi</h5>
-                    <p className="py-2 text-left">team effort Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequatur fugit tenetur exercitationem quasi a rerum doloribus
+                    <p className="py-2 text-left">This is my first Full Stack project, Camping elicrisi is website designed for the complete management of a campsite, it was developed as a comprehensive exercise in the design, development of a real web app.
                     </p>
                     <div className="p-2 flex flex-row justify-start flex-wrap gap-2">
                         <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><img width="20" height="20" src="https://img.icons8.com/fluency/48/typescript--v2.png" alt="typescript--v2" className="me-1"/><span className="ps-1">Typescript</span></p>
@@ -116,8 +117,8 @@ const ProjectSection = function () {
                         <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><img width="20" height="20" src="https://img.icons8.com/external-tal-revivo-duo-tal-revivo/25/external-postgre-sql-a-free-and-open-source-relational-database-management-system-logo-duo-tal-revivo.png" alt="external-postgre-sql-a-free-and-open-source-relational-database-management-system-logo-duo-tal-revivo" className="me-1"/> PostgreSQL</p>
                     </div>
                     <div className="flex flew-row justify-center p-3">
-                        <a href="https://github.com/Moonril/camping-elicriso-front-end/blob/main/README.md" target="_blank"  className="flex flew-row me-2 py-2 px-5 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" /> Git - Front</a>
-                        <a href="https://github.com/Moonril/camping-elicriso-progetto-finale-back-end" target="_blank"  className="flex flew-row me-2 py-2 px-5 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" /> Git - Back</a>
+                        <a href="https://github.com/Moonril/camping-elicriso-front-end/blob/main/README.md" target="_blank"  className="flex flew-row me-2 py-2 px-3 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" /> Git - Front</a>
+                        <a href="https://github.com/Moonril/camping-elicriso-progetto-finale-back-end" target="_blank"  className="flex flew-row me-2 py-2 px-3 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" /> Git - Back</a>
                         
                     </div>
                 </div>
