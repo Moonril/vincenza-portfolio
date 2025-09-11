@@ -10,8 +10,7 @@ function App() {
     <div className='min-h-screen'>
       <Sidebar />
       <MainPage />
-      <Footer />
-      
+      <Footer />      
     </div>
   )
 }

@@ -3,6 +3,7 @@ import ProjectSection from './ProjectSection'
 import AboutSection from './AboutSection'
 import Particles from './Particles';
 import SkillSection from './SkillSection';
+import Banner from './Banner';
 
 const MainPage = function () {
     return (
@@ -19,6 +20,7 @@ const MainPage = function () {
                     disableRotation={false}
                 />
             </div>
+            <Banner />
             <Element name='about'><AboutSection /></Element>
             <Element name='projects'><ProjectSection /></Element>
             <Element name='tech'><SkillSection /></Element>
