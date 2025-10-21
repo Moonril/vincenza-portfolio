@@ -9,9 +9,9 @@ const ProjectSection = function () {
             <div className="flex flex-row justify-center p-2 md:p-5 gap-5 flex-wrap">
                 {/* cards */}
                 {/* Spotify vanilla */}
-                <div className="bg-stone-950 p-4 rounded-2xl border border-gray-400 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
+                <div className="bg-stone-950 p-4 rounded-2xl border border-yellow-800 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
                     <div className="relative">
-                        <img src="spotify-preview.png" alt="spotify-preview" className="rounded-2xl w-full h-72  object-cover" />
+                        <img src="spotify-preview.png" alt="spotify-preview" className="rounded-2xl border border-gray-800 w-full h-72  object-cover" />
                         <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Front End</div>
                     </div>
                     <h5 className="pt-4 pb-2 text-xl font-bold text-left">Spotify clone with Vanilla JS</h5>
@@ -33,9 +33,9 @@ const ProjectSection = function () {
                     
                 </div>
                 {/* netflix */}
-                <div className="bg-stone-950 p-4 rounded-2xl border border-gray-400 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
+                <div className="bg-stone-950 p-4 rounded-2xl border border-yellow-800 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
                     <div className="relative">
-                        <img src="netflix-preview.png" alt="netflix-preview" className="rounded-2xl w-full h-72  object-cover" />
+                        <img src="netflix-preview.png" alt="netflix-preview" className="rounded-2xl border border-gray-800 w-full h-72  object-cover" />
                         <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Front End</div>
                     </div>
                     <h5 className="pt-4 pb-2 text-xl font-bold text-left">Netflix clone with React</h5>
@@ -55,9 +55,9 @@ const ProjectSection = function () {
                 </div>
 
                 {/* weather app */}
-                <div className="bg-stone-950 p-4 rounded-2xl border border-gray-400 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
+                <div className="bg-stone-950 p-4 rounded-2xl border border-yellow-800 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
                     <div className="relative">
-                        <img src="weather-preview.png" alt="weather-preview" className="rounded-2xl w-full h-72 object-cover" />
+                        <img src="weather-preview.png" alt="weather-preview" className="rounded-2xl border border-gray-800 w-full h-72 object-cover" />
                         <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Front End</div>
                     </div>
                     <h5 className="pt-4 pb-2 text-xl font-bold text-left">Weather App</h5>
@@ -76,9 +76,9 @@ const ProjectSection = function () {
                     </div>
                 </div>
                 {/* Music App */}
-                <div className="bg-stone-950 p-4 rounded-2xl border border-gray-400 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
+                <div className="bg-stone-950 p-4 rounded-2xl border border-yellow-800 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
                     <div className="relative">
-                        <img src="music-preview.png" alt="music-preview" className="rounded-2xl w-full h-72  object-cover" />
+                        <img src="music-preview.png" alt="music-preview" className="rounded-2xl border border-gray-800 w-full h-72  object-cover" />
                         <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Front End</div>
                     </div>
                     <h5 className="pt-4 pb-2 text-xl font-bold text-left">Apple Music clone</h5>
@@ -99,9 +99,9 @@ const ProjectSection = function () {
                     </div>
                 </div>
                 {/* camping */}
-                <div className="bg-stone-950 p-4 rounded-2xl border border-gray-400 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
+                <div className="bg-stone-950 p-4 rounded-2xl border border-yellow-800 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
                     <div className="relative">
-                        <img src="camping-preview.png" alt="camping-preview" className="rounded-2xl w-full h-72  object-cover" />
+                        <img src="camping-preview.png" alt="camping-preview" className="rounded-2xl border border-gray-800 w-full h-72  object-cover" />
                         <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Full Stack</div>
                     </div>
                     <h5 className="pt-4 pb-2 text-xl font-bold text-left">Camping Elicrisi</h5>
@@ -117,9 +117,9 @@ const ProjectSection = function () {
                         <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><img width="20" height="20" src="https://img.icons8.com/external-tal-revivo-duo-tal-revivo/25/external-postgre-sql-a-free-and-open-source-relational-database-management-system-logo-duo-tal-revivo.png" alt="external-postgre-sql-a-free-and-open-source-relational-database-management-system-logo-duo-tal-revivo" className="me-1"/> PostgreSQL</p>
                     </div>
                     <div className="flex flew-row justify-center p-3">
+                        <a href="https://github.com/Moonril/camping-elicriso-front-end/blob/main/README.md" target="_blank"  className="flex flew-row me-2 py-2 px-3 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" />Front</a>
+                        <a href="https://github.com/Moonril/camping-elicriso-progetto-finale-back-end" target="_blank"  className="flex flew-row me-2 py-2 px-3 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" />Back</a>
                         <a href="https://camping-elicriso-front-end.vercel.app/" target="_blank" className="flex flew-row ms-2 py-2 px-5 bg-cyan-800 rounded-md cursor-pointer hover:opacity-70 me-2"><img width="20" height="20" src="icons8-enlazar-50.png" alt="css logo" className="me-1"/> Demo</a>
-                        {/* <a href="https://github.com/Moonril/camping-elicriso-front-end/blob/main/README.md" target="_blank"  className="flex flew-row me-2 py-2 px-3 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" /> Git - Front</a> */}
-                        <a href="https://github.com/Moonril/camping-elicriso-progetto-finale-back-end" target="_blank"  className="flex flew-row me-2 py-2 px-3 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" /> Git - Back</a>
                         
                     </div>
                 </div>
