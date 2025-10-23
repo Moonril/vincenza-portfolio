@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "image": "spotify-preview.webp",
+    "type": "Front",
+    "title": "Spotify clone with Vanilla JS",
+    "ingredients": ["Javascript", "HTML", "CSS"],
+    "description": "Team-built clone of the Spotify app, complete with playlists, artists, albums and music previews.",
+    "github": "https://github.com/LLeo93/BW2-Team7/blob/main/README.md",
+    "demo": "https://spoti-team7-final.vercel.app/"
+  }
+  
+]
