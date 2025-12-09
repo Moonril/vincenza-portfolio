@@ -1,10 +1,23 @@
 [
   {
     "id": 1,
-    "image": "spotify-preview.webp",
+    "image": "spotify-preview.png",
     "type": "Front End",
     "title": "Spotify clone with Vanilla JS",
-    "ingredients": ["Javascript", "HTML", "CSS"],
+    "ingredients": [
+      {
+        "png": "icons8-javascript-64.png",
+        "tech": "Javascript"
+      },
+      {
+        "png": "icons8-html-64.png",
+        "tech": "HTML"
+      },
+      {
+        "png": "icons8-css-48.png",
+        "tech": "CSS"
+      }
+    ],
     "description": "Team-built clone of the Spotify app, complete with playlists, artists, albums and music previews.",
     "githubFront": "https://github.com/LLeo93/BW2-Team7/blob/main/README.md",
     "githubEnd": "",
@@ -15,7 +28,20 @@
     "image": "netflix-preview.png",
     "type": "Front End",
     "title": "Netflix clone with React",
-    "ingredients": ["Javascript", "React", "Bootstrap"],
+    "ingredients": [
+      {
+        "png": "icons8-javascript-64.png",
+        "tech": "Javascript"
+      },
+      {
+        "png": "icons8-reaccionar-24.png",
+        "tech": "React"
+      },
+      {
+        "png": "icons8-oreja-64.png",
+        "tech": "Bootstrap"
+      }
+    ],
     "description": "This is one of the first projects completed with React: A netflix clone using React, Javascript and Bootstrap. The Omdb API is used to source movie posters and information.",
     "githubFront": "https://github.com/Moonril/W9D5-project-Netflix-with-React/blob/main/README.md",
     "githubEnd": "",
@@ -26,7 +52,24 @@
     "image": "music-preview.png",
     "type": "Front End",
     "title": "Apple Music clone",
-    "ingredients": ["Javascript", "React", "Redux", "Bootstrap"],
+    "ingredients": [
+      {
+        "png": "icons8-javascript-64.png",
+        "tech": "Javascript"
+      },
+      {
+        "png": "icons8-reaccionar-24.png",
+        "tech": "React"
+      },
+      {
+        "png": "icons8-redux-48.png",
+        "tech": "Redux"
+      },
+      {
+        "png": "icons8-oreja-64.png",
+        "tech": "Bootstrap"
+      }
+    ],
     "description": "A music app clone made using React, Javascript, Redux and Bootstrap. I used the API Deezer to source music/artists data and songs previews.",
     "githubFront": "https://github.com/Moonril/W11-D5-project-Music-app/blob/main/README.md",
     "githubEnd": "",
@@ -37,7 +80,20 @@
     "image": "weather-preview.png",
     "type": "Front End",
     "title": "Weather App",
-    "ingredients": ["Javascript", "React", "Bootstrap"],
+    "ingredients": [
+      {
+        "png": "icons8-javascript-64.png",
+        "tech": "Javascript"
+      },
+      {
+        "png": "icons8-reaccionar-24.png",
+        "tech": "React"
+      },
+      {
+        "png": "icons8-oreja-64.png",
+        "tech": "Bootstrap"
+      }
+    ],
     "description": "A weather app made using React, Javascript and Bootstrap. Provides current weather and updates every three hours for the next five days. Best enjoyed in mobile form.",
     "githubFront": "https://github.com/Moonril/W10-D5-project-Weather-app/blob/main/README.md",
     "githubEnd": "",
@@ -47,8 +103,33 @@
     "id": 5,
     "image": "camping-preview.png",
     "type": "Full Stack",
-    "title": "Spotify clone with Vanilla JS",
-    "ingredients": ["Typescript", "React", "Tailwind", "Java", "SpringBoot", "PostgreSQL"],
+    "title": "Camping Elicrisi",
+    "ingredients": [
+      {
+        "png": "icons8-mecanografiado-48.png",
+        "tech": "Typescript"
+      },
+      {
+        "png": "icons8-reaccionar-24.png",
+        "tech": "React"
+      },
+      {
+        "png": "icons8-viento-de-cola-css-48.png",
+        "tech": "Tailwind"
+      },
+      {
+        "png": "icons8-logotipo-de-java-coffee-cup-48.png",
+        "tech": "Java"
+      },
+      {
+        "png": "icons8-logotipo-de-primavera-48.png",
+        "tech": "SpringBoot"
+      },
+      {
+        "png": "icons8-postgresql-25.png",
+        "tech": "PostgreSQL"
+      }
+    ],
     "description": "This is my first Full Stack project, Camping elicrisi is website designed for the complete management of a campsite, it was developed as a comprehensive exercise in the design, development of a real web app.",
     "githubFront": "https://github.com/Moonril/camping-elicriso-front-end/blob/main/README.md",
     "githubEnd": "https://github.com/Moonril/camping-elicriso-progetto-finale-back-end",
@@ -59,9 +140,22 @@
     "image": "recipe-preview.png",
     "type": "Front End",
     "title": "Family Recipes Book",
-    "ingredients": ["Javascript", "React", "Tailwind"],
+    "ingredients": [
+      {
+        "png": "icons8-mecanografiado-48.png",
+        "tech": "Typescript"
+      },
+      {
+        "png": "icons8-reaccionar-24.png",
+        "tech": "React"
+      },
+      {
+        "png": "icons8-viento-de-cola-css-48.png",
+        "tech": "Tailwind"
+      }
+    ],
     "description": "A small, simple recipe book used to digitalize all our family recipes. I'm currently working on integrating the project with a back end.",
-    "githubFront": "https://github.com/Moonril/family-recipes",
+    "githubFront": "https://github.com/Moonril/family-recipes/blob/main/README.md",
     "githubEnd": "",
     "demo": "https://family-recipes-ten.vercel.app/"
   }
