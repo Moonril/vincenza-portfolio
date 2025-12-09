@@ -2,12 +2,68 @@
   {
     "id": 1,
     "image": "spotify-preview.webp",
-    "type": "Front",
+    "type": "Front End",
     "title": "Spotify clone with Vanilla JS",
     "ingredients": ["Javascript", "HTML", "CSS"],
     "description": "Team-built clone of the Spotify app, complete with playlists, artists, albums and music previews.",
-    "github": "https://github.com/LLeo93/BW2-Team7/blob/main/README.md",
+    "githubFront": "https://github.com/LLeo93/BW2-Team7/blob/main/README.md",
+    "githubEnd": "",
     "demo": "https://spoti-team7-final.vercel.app/"
+  },
+  {
+    "id": 2,
+    "image": "netflix-preview.png",
+    "type": "Front End",
+    "title": "Netflix clone with React",
+    "ingredients": ["Javascript", "React", "Bootstrap"],
+    "description": "This is one of the first projects completed with React: A netflix clone using React, Javascript and Bootstrap. The Omdb API is used to source movie posters and information.",
+    "githubFront": "https://github.com/Moonril/W9D5-project-Netflix-with-React/blob/main/README.md",
+    "githubEnd": "",
+    "demo": "https://netflix-with-react-seven.vercel.app/"
+  },
+  {
+    "id": 3,
+    "image": "music-preview.png",
+    "type": "Front End",
+    "title": "Apple Music clone",
+    "ingredients": ["Javascript", "React", "Redux", "Bootstrap"],
+    "description": "A music app clone made using React, Javascript, Redux and Bootstrap. I used the API Deezer to source music/artists data and songs previews.",
+    "githubFront": "https://github.com/Moonril/W11-D5-project-Music-app/blob/main/README.md",
+    "githubEnd": "",
+    "demo": "https://apple-music-clone-sepia.vercel.app/"
+  },
+  {
+    "id": 4,
+    "image": "weather-preview.png",
+    "type": "Front End",
+    "title": "Weather App",
+    "ingredients": ["Javascript", "React", "Bootstrap"],
+    "description": "A weather app made using React, Javascript and Bootstrap. Provides current weather and updates every three hours for the next five days. Best enjoyed in mobile form.",
+    "githubFront": "https://github.com/Moonril/W10-D5-project-Weather-app/blob/main/README.md",
+    "githubEnd": "",
+    "demo": "https://weatherapp-mocha-three-76.vercel.app/"
+  },
+  {
+    "id": 5,
+    "image": "camping-preview.png",
+    "type": "Full Stack",
+    "title": "Spotify clone with Vanilla JS",
+    "ingredients": ["Typescript", "React", "Tailwind", "Java", "SpringBoot", "PostgreSQL"],
+    "description": "This is my first Full Stack project, Camping elicrisi is website designed for the complete management of a campsite, it was developed as a comprehensive exercise in the design, development of a real web app.",
+    "githubFront": "https://github.com/Moonril/camping-elicriso-front-end/blob/main/README.md",
+    "githubEnd": "https://github.com/Moonril/camping-elicriso-progetto-finale-back-end",
+    "demo": "https://camping-elicriso-front-end.vercel.app/"
+  },
+  {
+    "id": 6,
+    "image": "recipe-preview.png",
+    "type": "Front End",
+    "title": "Family Recipes Book",
+    "ingredients": ["Javascript", "React", "Tailwind"],
+    "description": "A small, simple recipe book used to digitalize all our family recipes. I'm currently working on integrating the project with a back end.",
+    "githubFront": "https://github.com/Moonril/family-recipes",
+    "githubEnd": "",
+    "demo": "https://family-recipes-ten.vercel.app/"
   }
   
 ]
