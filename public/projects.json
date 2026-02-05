@@ -57,13 +57,24 @@
   {
     "id": 6,
     "image": "recipe-preview.png",
-    "type": "Front End",
+    "type": "Full Stack",
     "title": "Family Recipes Book",
     "ingredients": ["Javascript", "React", "Tailwind", "Java", "SpringBoot", "PostgreSQL"],
-    "description": "A small, simple recipe book used to digitalize all our family recipes. I'm currently working on completing the back end side of the project.",
+    "description": "A small, simple recipe book used to digitalize all our family recipes. The project has a small backend developed in Java.",
     "githubFront": "https://github.com/Moonril/family-recipes",
     "githubEnd": "https://github.com/Moonril/family-recipes-backend-java",
     "demo": "https://family-recipes-ten.vercel.app/"
+  },
+  {
+    "id": 7,
+    "image": "local-restaurant.png",
+    "type": "Full Stack",
+    "title": "Local Restaurant",
+    "ingredients": ["Javascript", "React", "Tailwind", "Java", "SpringBoot", "PostgreSQL"],
+    "description": "A website dedicated to a beloved local restaurant. I'm currently working on expanding both the front and the back end of the project.",
+    "githubFront": "https://github.com/Moonril/local-restaurant",
+    "githubEnd": "https://github.com/Moonril/local-restaurant-backend-java",
+    "demo": "https://local-restaurant-agff6af2e-moonrils-projects.vercel.app/"
   }
   
 ]
