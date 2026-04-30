@@ -16,6 +16,13 @@ const SkillSection = function () {
                 <p>Spring</p>
                 <p>PostgreSQL</p>
             </div>
+            <div className="border border-orange-900 rounded-2xl p-4 pe-20 text-start  bg-stone-950">
+                <h3 className="font-bold text-xl mb-2">Extra</h3>
+                <p>Vercel</p>
+                <p>Supabase</p>
+                <p>WCAG</p>
+                <p>Lovable</p>
+            </div>
         </section>
     )
 }
