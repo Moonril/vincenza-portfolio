@@ -113,13 +113,13 @@ const ProjectSection = function () {
                 </div>
 
                 {/* camping */}
-                <div className="bg-stone-950 p-4 rounded-2xl border border-yellow-800 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
+                <div className="bg-stone-950 p-4 rounded-2xl border border-2 border-green-300 w-sm hover:border-cyan-400 scale-103 hover:scale-105 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
                     <div className="relative">
                         <img src="camping-preview.png" alt="camping-preview" className="rounded-2xl border border-gray-800 w-full h-72  object-cover" />
                         <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Full Stack</div>
                     </div>
                     <h5 className="pt-4 pb-2 text-xl font-bold text-left">Camping Elicrisi</h5>
-                    <p className="py-2 text-left">This is my first Full Stack project, Camping elicrisi is website designed for the complete management of a campsite, it was developed as a comprehensive exercise in the design, development of a real web app.
+                    <p className="py-2 text-left">This is my first Full Stack and biggest project, Camping elicrisi is website designed for the complete management of a campsite, it was developed as a comprehensive exercise in the design, development of a real web app.
                     </p>
                     <div className="p-2 flex flex-row justify-start flex-wrap gap-2">
                         <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><img width="20" height="20" src="https://img.icons8.com/fluency/48/typescript--v2.png" alt="typescript--v2" className="me-1"/><span className="ps-1">Typescript</span></p>
