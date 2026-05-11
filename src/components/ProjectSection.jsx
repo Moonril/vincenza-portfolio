@@ -4,10 +4,12 @@ const ProjectSection = function () {
     return (
         <section className="text-white p-5">
             <h3 className=" text-4xl pb-2 font-bold">My Projects</h3>
-            <p className="py-3 text-lg">A collection of projects that showcase my skills in web development in <b className="text-orange-500">chronological</b> order. Some were completed during the Epicode Full-Stack course, others are personal projects.</p>
+            <p className="py-3 text-lg">A collection of projects that showcase my skills in web development in <b className="text-orange-500">chronological</b> order. Some were completed during the Full-Stack course, others are personal projects.</p>
 
-            <h5 className=" text-2xl py-2 font-bold text-orange-600">Clones</h5>
-            <p>A series of intial projects, usually clones of existing websites, all developed in less than a day to test and hone my CSS/React skills.</p>
+            <div className="py-5">
+                <h5 className=" text-2xl py-2 font-bold text-orange-600">Clones</h5>
+                <p className="">A series of <b className="text-orange-500">initial</b> projects, usually clones of existing websites, all developed in less than a day to test and hone my CSS/React skills.</p>
+            </div>
             {/* cards container */}
             <div className="flex flex-row justify-center p-2 md:p-5 gap-5 flex-wrap">
                 {/* cards */}
@@ -83,8 +85,10 @@ const ProjectSection = function () {
                 </div>
             </div>
 
-            <h4 className=" text-4xl pb-2 font-bold my-10">Personal Projects</h4>
-            <p>A series of personal, more complex projects where I developed every single bit, from design and colors to the structure of the database.</p>
+            <div className="py-5">
+                <h4 className=" text-4xl pb-2 font-bold my-10 text-orange-600">Personal Projects</h4>
+                <p>A series of personal, more complex projects where I developed every single bit, from design and colors to the structure of the database.</p>
+            </div>
 
                   
 
@@ -199,8 +203,10 @@ const ProjectSection = function () {
                 </div>
             </div>
 
-            <h4 className=" text-4xl pb-2 font-bold my-10">AI Projects</h4>
-            <p>Due to growing interest, I began exploring Artificial Intelligence more deeply. This section showcases a series of projects built using Lovable and Supabase. My workflow involves designing the initial prompts, refining the generated product through Lovable, exporting the code to GitHub, and then personally reviewing and improving it to ensure quality, structure, and functionality.</p>
+            <div className="py-5">
+                <h4 className=" text-4xl pb-2 font-bold my-10 text-orange-700">AI Projects</h4>
+                <p>Due to growing interest, I began exploring Artificial Intelligence more deeply. This section showcases a series of projects built using Lovable and Supabase. My workflow involves designing the initial prompts, refining the generated product through Lovable, exporting the code to GitHub, and then personally reviewing and improving it to ensure quality, structure, and functionality.</p>
+            </div>
 
             <div className="flex flex-row justify-center p-2 md:p-5 gap-5 flex-wrap">
                 <div className="bg-stone-950 p-4 rounded-2xl border border-yellow-800 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
