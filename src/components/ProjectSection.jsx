@@ -30,7 +30,7 @@ const ProjectSection = function () {
                         <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><img width="20" height="20" src="icons8-css-48.png" alt="css logo" className="me-1"/> CSS</p>
                     </div>
                     <div className="flex flew-row justify-center p-3">
-                        <a href="https://github.com/LLeo93/BW2-Team7/blob/main/README.md" target="_blank"  className="flex flew-row me-2 py-2 px-5 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" /> GitHub</a>
+                        <a href="https://github.com/LLeo93/BW2-Team7/blob/main/README.md" target="_blank"  className="flex flew-row me-2 py-2  ps-2 pe-5 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-1" /> GitHub</a>
                         <a href="https://spoti-team7-final.vercel.app/" target="_blank" className="flex flew-row ms-2 py-2 px-5 bg-cyan-800 rounded-md cursor-pointer hover:opacity-70"><img width="20" height="20" src="icons8-enlazar-50.png" alt="css logo" className="me-1"/> Demo</a>
                     </div>
                     
@@ -52,7 +52,7 @@ const ProjectSection = function () {
                         <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><img width="20" height="20" src="https://img.icons8.com/nolan/64/bootstrap.png" alt="bootstrap" className="me-1"/> Bootstrap</p>
                     </div>
                     <div className="flex flew-row justify-center p-3">
-                        <a href="https://github.com/Moonril/W9D5-project-Netflix-with-React/blob/main/README.md" target="_blank"  className="flex flew-row me-2 py-2 px-5 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" /> GitHub</a>
+                        <a href="https://github.com/Moonril/W9D5-project-Netflix-with-React/blob/main/README.md" target="_blank"  className="flex flew-row me-2 py-2  ps-2 pe-5 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-1" /> GitHub</a>
                         <a href="https://netflix-with-react-seven.vercel.app/" target="_blank" className="flex flew-row ms-2 py-2 px-5 bg-cyan-800 rounded-md cursor-pointer hover:opacity-70"><img width="20" height="20" src="icons8-enlazar-50.png" alt="css logo" className="me-1"/> Demo</a>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ const ProjectSection = function () {
                         <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><img width="20" height="20" src="https://img.icons8.com/nolan/64/bootstrap.png" alt="bootstrap" className="me-1"/> Bootstrap</p>
                     </div>
                     <div className="flex flew-row justify-center p-3">
-                        <a href="https://github.com/Moonril/W11-D5-project-Music-app/blob/main/README.md" target="_blank"  className="flex flew-row me-2 py-2 px-5 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" />GitHub</a>
+                        <a href="https://github.com/Moonril/W11-D5-project-Music-app/blob/main/README.md" target="_blank"  className="flex flew-row me-2 py-2   ps-2 pe-5 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" />GitHub</a>
                         <a href="https://apple-music-clone-sepia.vercel.app/" target="_blank" className="flex flew-row ms-2 py-2 px-5 bg-cyan-800 rounded-md cursor-pointer hover:opacity-70"><img width="20" height="20" src="icons8-enlazar-50.png" alt="css logo" className="me-1"/> Demo</a>
                     </div>
                 </div>
@@ -107,7 +107,7 @@ const ProjectSection = function () {
                         <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><img width="20" height="20" src="https://img.icons8.com/nolan/64/bootstrap.png" alt="bootstrap" className="me-1"/> Bootstrap</p>
                     </div>
                     <div className="flex flew-row justify-center p-3">
-                        <a href="https://github.com/Moonril/W10-D5-project-Weather-app/blob/main/README.md" target="_blank"  className="flex flew-row me-2 py-2 px-5 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" /> GitHub</a>
+                        <a href="https://github.com/Moonril/W10-D5-project-Weather-app/blob/main/README.md" target="_blank"  className="flex flew-row me-2 py-2   ps-2 pe-5 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" /> GitHub</a>
                         <a href="https://weatherapp-mocha-three-76.vercel.app/" target="_blank" className="flex flew-row ms-2 py-2 px-5 bg-cyan-800 rounded-md cursor-pointer hover:opacity-70"><img width="20" height="20" src="icons8-enlazar-50.png" alt="css logo" className="me-1"/> Demo</a>
                     </div>
                 </div>
@@ -130,10 +130,10 @@ const ProjectSection = function () {
                         <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><img width="20" height="20" src="https://img.icons8.com/color/48/spring-logo.png" alt="spring-logo" className="me-1"/> SpringBoot</p>
                         <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><img width="20" height="20" src="https://img.icons8.com/external-tal-revivo-duo-tal-revivo/25/external-postgre-sql-a-free-and-open-source-relational-database-management-system-logo-duo-tal-revivo.png" alt="external-postgre-sql-a-free-and-open-source-relational-database-management-system-logo-duo-tal-revivo" className="me-1"/> PostgreSQL</p>
                     </div>
-                    <div className="flex flew-row justify-center p-3">
-                        <a href="https://github.com/Moonril/camping-elicriso-front-end/blob/main/README.md" target="_blank"  className="flex flew-row me-2 py-2 px-3 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" />Front</a>
-                        <a href="https://github.com/Moonril/camping-elicriso-progetto-finale-back-end" target="_blank"  className="flex flew-row me-2 py-2 px-3 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" />Back</a>
-                        <a href="https://camping-elicriso-front-end.vercel.app/" target="_blank" className="flex flew-row ms-2 py-2 px-5 bg-cyan-800 rounded-md cursor-pointer hover:opacity-70 me-2"><img width="20" height="20" src="icons8-enlazar-50.png" alt="css logo" className="me-1"/> Demo</a>
+                    <div className="flex flew-row justify-center p-1 xs:p-3 gap-2">
+                        <a href="https://github.com/Moonril/camping-elicriso-front-end/blob/main/README.md" target="_blank"  className="flex flew-row py-2 ps-1 pe-4 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="md:me-2" /> <p>Front</p> </a>
+                        <a href="https://github.com/Moonril/camping-elicriso-progetto-finale-back-end" target="_blank"  className="flex flew-row me-1 py-2  ps-2 pe-4 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="md:me-2" /> <p>Back</p> </a>
+                        <a href="https://camping-elicriso-front-end.vercel.app/" target="_blank" className="flex flew-row ms-2 py-2 px-5 bg-cyan-800 rounded-md cursor-pointer hover:opacity-70 me-2"><img width="20" height="20" src="icons8-enlazar-50.png" alt="css logo" className="md:me-2"/> <p>Demo</p> </a>
                         
                     </div>
                 </div>
@@ -160,10 +160,10 @@ const ProjectSection = function () {
                         <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><img width="20" height="20" src="https://img.icons8.com/external-tal-revivo-duo-tal-revivo/25/external-postgre-sql-a-free-and-open-source-relational-database-management-system-logo-duo-tal-revivo.png" alt="external-postgre-sql-a-free-and-open-source-relational-database-management-system-logo-duo-tal-revivo" className="me-1"/> PostgreSQL</p>
                         
                     </div>
-                    <div className="flex flew-row justify-center p-3">
-                        <a href="https://github.com/Moonril/family-recipes" target="_blank"  className="flex flew-row me-2 py-2 px-3 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" />Front</a>
-                        <a href="https://github.com/Moonril/family-recipes-backend-java" target="_blank"  className="flex flew-row me-2 py-2 px-3 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" />Back</a>
-                        <a href="https://family-recipes-ten.vercel.app/" target="_blank" className="flex flew-row ms-2 py-2 px-5 bg-cyan-800 rounded-md cursor-pointer hover:opacity-70 me-2"><img width="20" height="20" src="icons8-enlazar-50.png" alt="css logo" className="me-1"/> Demo</a>
+                    <div className="flex flew-row justify-center p-1 xs:p-3 gap-2">
+                        <a href="https://github.com/Moonril/family-recipes" target="_blank"  className="flex flew-row py-2 ps-1 pe-4 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="md:me-2" />Front</a>
+                        <a href="https://github.com/Moonril/family-recipes-backend-java" target="_blank"  className="flex flew-row me-1 py-2  ps-2 pe-4 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="md:me-2" />Back</a>
+                        <a href="https://family-recipes-ten.vercel.app/" target="_blank" className="flex flew-row ms-2 py-2 px-5 bg-cyan-800 rounded-md cursor-pointer hover:opacity-70 me-2"><img width="20" height="20" src="icons8-enlazar-50.png" alt="css logo" className="md:me-1"/> Demo</a>
                         
                     </div>
                 </div>
@@ -190,10 +190,10 @@ const ProjectSection = function () {
                         <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><img width="20" height="20" src="https://img.icons8.com/external-tal-revivo-duo-tal-revivo/25/external-postgre-sql-a-free-and-open-source-relational-database-management-system-logo-duo-tal-revivo.png" alt="external-postgre-sql-a-free-and-open-source-relational-database-management-system-logo-duo-tal-revivo" className="me-1"/> PostgreSQL</p>
                         
                     </div>
-                    <div className="flex flew-row justify-center p-3">
-                        <a href="https://github.com/Moonril/local-restaurant" target="_blank"  className="flex flew-row me-2 py-2 px-3 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" />Front</a>
-                        <a href="https://github.com/Moonril/local-restaurant-backend-java" target="_blank"  className="flex flew-row me-2 py-2 px-3 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" />Back</a>
-                        <a href="https://local-restaurant-gamma.vercel.app/" target="_blank" className="flex flew-row ms-2 py-2 px-5 bg-cyan-800 rounded-md cursor-pointer hover:opacity-70 me-2"><img width="20" height="20" src="icons8-enlazar-50.png" alt="css logo" className="me-1"/> Demo</a>
+                    <div className="flex flew-row justify-center p-1 xs:p-3 gap-2">
+                        <a href="https://github.com/Moonril/local-restaurant" target="_blank"  className="flex flew-row py-2 ps-1 pe-4 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="md:me-2" />Front</a>
+                        <a href="https://github.com/Moonril/local-restaurant-backend-java" target="_blank"  className="flex flew-row me-1 py-2  ps-2 pe-4 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="md:me-2" />Back</a>
+                        <a href="https://local-restaurant-gamma.vercel.app/" target="_blank" className="flex flew-row ms-2 py-2 px-5 bg-cyan-800 rounded-md cursor-pointer hover:opacity-70 me-2"><img width="20" height="20" src="icons8-enlazar-50.png" alt="css logo" className="md:me-1"/> Demo</a>
                         
                     </div>
                 </div>
@@ -222,7 +222,7 @@ const ProjectSection = function () {
                         
                     </div>
                     <div className="flex flew-row justify-center p-3">
-                        <a href="https://github.com/Moonril/lemon-kitchen-hub" target="_blank"  className="flex flew-row me-2 py-2 px-3 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" />Github</a>
+                        <a href="https://github.com/Moonril/lemon-kitchen-hub" target="_blank"  className="flex flew-row me-2 py-2   ps-2 pe-5 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" />Github</a>
                         
                         <a href="https://lemon-kitchen-hub.vercel.app/" target="_blank" className="flex flew-row ms-2 py-2 px-5 bg-cyan-800 rounded-md cursor-pointer hover:opacity-70 me-2"><img width="20" height="20" src="icons8-enlazar-50.png" alt="css logo" className="me-1"/> Demo</a>
                         
