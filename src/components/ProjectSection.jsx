@@ -117,10 +117,12 @@ const ProjectSection = function () {
                 </div>
 
                 {/* camping */}
-                <div className="bg-stone-950 p-4 rounded-2xl border border-2 border-green-300 w-sm hover:border-cyan-400 scale-103 hover:scale-105 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
+                <div className="bg-stone-950 p-4 rounded-2xl border-2 border-green-300 w-sm hover:border-cyan-400 scale-103 hover:scale-105 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
+
                     <div className="relative">
                         <img src="camping-preview.png" alt="camping-preview" className="rounded-2xl border border-gray-800 w-full h-72  object-cover" />
                         <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Full Stack</div>
+                        <p className="absolute -top-10 left-1/6 md:left-1/4 px-2 text-3xl font-bold bg-gradient-to-r from-orange-300 to-red-300 bg-clip-text text-transparent">Highlighted</p>
                     </div>
                     <h5 className="pt-4 pb-2 text-xl font-bold text-left">Camping Elicrisi</h5>
                     <p className="py-2 text-left">This is my first Full Stack and biggest project, Camping elicrisi is website designed for the complete management of a campsite, it was developed as a comprehensive exercise in the design, development of a real web app.
