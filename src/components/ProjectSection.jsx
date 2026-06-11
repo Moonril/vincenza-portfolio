@@ -143,7 +143,7 @@ const ProjectSection = function () {
                     </div>
                     <h5 className="pt-4 pb-2 text-xl font-bold text-left">Lemon Kitchen Hub</h5>
                     <p className="py-2 text-left">
-                        A simple recipe book used to digitalize all our family recipes, deployed through Vercel and Supabase, complete with functioning Login feature and handling of recipes.
+                        A recipe web app created through Lovable, deployed through Vercel and Supabase, complete with functioning Login feature and handling of recipes.
                     </p>
                     <div className="p-2 flex flex-row justify-start flex-wrap gap-2">
                         <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><img width="20" height="20" src="https://img.icons8.com/fluency/48/typescript--v2.png" alt="typescript--v2" className="me-1"/><span className="ps-1">Typescript</span></p>
