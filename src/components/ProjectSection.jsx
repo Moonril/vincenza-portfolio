@@ -126,6 +126,29 @@ const ProjectSection = function () {
                         
                     </div>
                 </div>
+
+                {/* smoothies */}
+
+                <div className="bg-stone-950 p-4 rounded-2xl border border-yellow-800 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
+                    <div className="relative">
+                        <img src="smoothie-preview.png" alt="local-restaurant" className="rounded-2xl border border-gray-800 w-full h-72  object-cover" />
+                        <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Front End</div>
+                    </div>
+                    <h5 className="pt-4 pb-2 text-xl font-bold text-left">Smoothie App</h5>
+                    <p className="py-2 text-left">
+                        This is my first ever approach to React Native, it's a very simple app with a landing page and dedicate [id] pages for every smoothie. Keeping it simple to practice. I'ts currently not deployed and a demo can be found in the ReadMe file on github.
+                    </p>
+                    <div className="p-2 flex flex-row justify-start flex-wrap gap-2">
+                        <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><img width="20" height="20" src="https://img.icons8.com/fluency/48/typescript--v2.png" alt="typescript--v2" className="me-1"/><span className="ps-1">Typescript</span></p>
+                        <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"> <img width="20" height="20" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png" alt="external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo" className="me-1"/> React Native</p>
+                        <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"> <img width="20" height="20" src="https://img.icons8.com/?size=100&id=hmieDPifBlBM&format=png&color=000000" alt="external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo" className="me-1"/>Expo Go</p>
+                        
+                    </div>
+                    <div className="flex flew-row justify-center p-1 xs:p-3 gap-2">
+                        <a href="https://github.com/Moonril/prova" target="_blank"  className="flex flew-row py-2 ps-1 pe-4 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="md:me-2" />GitHub</a>
+                        
+                    </div>
+                </div>
             </div>
 
             {/* AI projects */}
