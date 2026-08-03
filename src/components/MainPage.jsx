@@ -4,13 +4,21 @@ import AboutSection from './AboutSection'
 import Particles from './Particles';
 import SkillSection from './SkillSection';
 import Banner from './Banner';
+import { useSeasonTheme } from '../hooks/useSeasonTheme';
 
 const MainPage = function () {
+
+    const theme = useSeasonTheme();
+
+
     return (
         <section className="relative min-h-screen bg-black text-center overflow-hidden z-0">
             <div className="absolute inset-0 -z-10 w-full h-full">
                 <Particles
-                    particleColors={['#f2233a', '#f99768']}
+                    particleColors={theme.particleColors}// Autumn  giallo-rosso
+                    //particleColors={['#A5DEF3', '#06232D']} // Winter azzurro chiaro - blu oltremare
+                    //particleColors={['#ff66ff', '#CC0066']} // Spring rosa-viola
+                    //particleColors={['#7FF942', '#226500']} // Summer aquamarine - verde
                     particleCount={1300}
                     particleSpread={5}
                     speed={0.03}
