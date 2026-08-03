@@ -1,7 +1,11 @@
+import { useSeasonTheme } from "../hooks/useSeasonTheme";
 
 const ProjectCard = function () {
+
+    const theme = useSeasonTheme();
+
     return (
-        <div className="bg-stone-950 p-4 rounded-2xl border border-yellow-800 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
+        <div className="bg-stone-950 p-4 rounded-2xl border w-sm hover:border-[var(--hover-border)] hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between" style={{ borderColor: theme.cardColor, '--hover-border': theme.hoverCardColor, }} >
             <div className="relative">
                 <img src="recipe-preview.png" alt="camping-preview" className="rounded-2xl border border-gray-800 w-full h-72  object-cover" />
                 <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Front End</div>

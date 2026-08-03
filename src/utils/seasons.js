@@ -19,23 +19,43 @@ export const SEASONS = {
   },
   summer: {
     months: [5, 6, 7],
-    backgroundImage: 'beach-5.png',
-    //particleColors: ['#A5DEF3', '#06232D', '#4ecdc4'],
-    particleColors: ['#a5c9ff', '#e0f0ff', '#ffffff'],
-    aboutColors: ['#a5c9ff', '#e0f0ff'],
-    sideMenuColor: ['#ffb7d5', '#ffb7d5'],
-    cardColor: '',
-    activeCardColor: '',
-    accentColors: ['#a5c9ff', '#e0f0ff'],
+ 
+    bannerImage: 'beach-5.png', 
+
+    particleColors: ['#f2233a', '#f99768'], 
+
+    nameColors: ['#C8005B', '#ef4444'],
+    titlesColor: '#ea580c', 
+    textColor: '#f97316', 
+
+    sideMenuColor: ['#ef4444', '#fecaca'], 
+
+    cardColor: '#854d0e', 
+    hoverCardColor: '#991b1b',  
+    highlightColor: '#86efac',
+    hoverHighlightColor: '#22d3ee',
+
+    skillColor: '#7c2d12',
 },
 autumn: {
-    backgroundImage: 'yellow-leaves.jpg',
     months: [8, 9, 10],
-    nameColors: ['#a5c9ff', '#e0f0ff'],
-    sideMenuColor: ['#ef4444', '#fecaca'], //
-    cardColor: '',
-    activeCardColor: '',
-    accentColors: ['#a5c9ff', '#e0f0ff'],
+
+    bannerImage: 'yellow-leaves.jpg', 
+
+    particleColors: ['#f2233a', '#f99768'], 
+
+    nameColors: ['#C8005B', '#ef4444'],
+    titlesColor: '#ea580c', 
+    textColor: '#f97316', 
+
+    sideMenuColor: ['#ef4444', '#fecaca'], 
+
+    cardColor: '#854d0e', 
+    hoverCardColor: '#991b1b',  
+    highlightColor: '#86efac',
+    hoverHighlightColor: '#22d3ee',
+
+    skillColor: '#7c2d12',
   },
 };
 

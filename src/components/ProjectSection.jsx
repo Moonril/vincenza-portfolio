@@ -1,6 +1,10 @@
 import { Link } from "react-scroll"
+import { useSeasonTheme } from "../hooks/useSeasonTheme";
 
 const ProjectSection = function () {
+
+    const theme = useSeasonTheme();
+
     return (
         <section className="text-white p-5">
             <h3 className=" text-4xl pb-2 font-bold">My Projects</h3>
@@ -9,8 +13,8 @@ const ProjectSection = function () {
 
             {/* Personal projects */}
             <div className="py-5">
-                <h4 className=" text-4xl pb-2 font-bold my-10 text-orange-600">Personal Projects</h4>
-                <p>A series of personal, more complex projects in <b className="text-orange-500">chronological</b> order where I developed every single bit , from design and colors to the structure of the database.</p>
+                <h4 className=" text-4xl pb-2 font-bold my-10 " style={{ color: theme.titlesColor }}>Personal Projects</h4>
+                <p>A series of personal, more complex projects in <b style={{ color: theme.textColor }}>chronological</b> order where I developed every single bit , from design and colors to the structure of the database.</p>
             </div>
 
                   
@@ -18,7 +22,7 @@ const ProjectSection = function () {
             <div className="flex flex-row justify-center p-2 md:p-5 gap-5 flex-wrap"> 
 
                           {/* weather app */}
-                <div className="bg-stone-950 p-4 rounded-2xl border border-yellow-800 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
+                <div className="bg-stone-950 p-4 rounded-2xl border w-sm  border-[var(--card-border)] hover:border-[var(--hover-border)] hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between" style={{ '--card-border': theme.cardColor, '--hover-border': theme.hoverCardColor, }}>
                     <div className="relative">
                         <img src="weather-preview.png" alt="weather-preview" className="rounded-2xl border border-gray-800 w-full h-72 object-cover" />
                         <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Front End</div>
@@ -40,7 +44,7 @@ const ProjectSection = function () {
                 </div>
 
                 {/* camping */}
-                <div className="bg-stone-950 p-4 rounded-2xl border-2 border-green-300 w-sm hover:border-cyan-400 scale-103 hover:scale-105 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
+                <div className="bg-stone-950 p-4 rounded-2xl border-2  w-sm border-[var(--card-border)] hover:border-[var(--hover-border)] scale-103 hover:scale-105 transition delay-50 duration-500 ease-in-out flex flex-col justify-between" style={{ '--card-border': theme.highlightColor, '--hover-border': theme.hoverHighlightColor, }}>
 
                     <div className="relative">
                         <img src="camping-preview.png" alt="camping-preview" className="rounded-2xl border border-gray-800 w-full h-72  object-cover" />
@@ -69,7 +73,7 @@ const ProjectSection = function () {
 
                 {/* recipes */}
 
-                <div className="bg-stone-950 p-4 rounded-2xl border border-yellow-800 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
+                <div className="bg-stone-950 p-4 rounded-2xl border w-sm border-[var(--card-border)] hover:border-[var(--hover-border)] hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between" style={{ '--card-border': theme.cardColor, '--hover-border': theme.hoverCardColor, }}>
                     <div className="relative">
                         <img src="recipe-preview.png" alt="recipe-preview" className="rounded-2xl border border-gray-800 w-full h-72  object-cover" />
                         <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Full Stack</div>
@@ -99,7 +103,7 @@ const ProjectSection = function () {
 
                 {/* restaurant */}
 
-                <div className="bg-stone-950 p-4 rounded-2xl border border-yellow-800 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
+                <div className="bg-stone-950 p-4 rounded-2xl border w-sm border-[var(--card-border)] hover:border-[var(--hover-border)] hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between" style={{ '--card-border': theme.cardColor, '--hover-border': theme.hoverCardColor, }}>
                     <div className="relative">
                         <img src="local-restaurant.png" alt="local-restaurant" className="rounded-2xl border border-gray-800 w-full h-72  object-cover" />
                         <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Full Stack</div>
@@ -129,7 +133,7 @@ const ProjectSection = function () {
 
                 {/* smoothies */}
 
-                <div className="bg-stone-950 p-4 rounded-2xl border border-yellow-800 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
+                <div className="bg-stone-950 p-4 rounded-2xl border w-sm border-[var(--card-border)] hover:border-[var(--hover-border)] hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between" style={{ '--card-border': theme.cardColor, '--hover-border': theme.hoverCardColor, }}>
                     <div className="relative">
                         <img src="smoothie-preview.png" alt="local-restaurant" className="rounded-2xl border border-gray-800 w-full h-72  object-cover" />
                         <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Front End</div>
@@ -154,12 +158,12 @@ const ProjectSection = function () {
             {/* AI projects */}
 
             <div className="py-5">
-                <h4 className=" text-4xl pb-2 font-bold my-10 text-orange-700">AI Projects</h4>
+                <h4 className=" text-4xl pb-2 font-bold my-10 " style={{ color: theme.titlesColor }}>AI Projects</h4>
                 <p>Due to growing interest, I began exploring Artificial Intelligence more deeply. This section showcases a series of projects built using Lovable and Supabase. My workflow involves designing the initial prompts, refining the generated product through Lovable, exporting the code to GitHub, and then personally reviewing and improving it to ensure quality, structure, and functionality.</p>
             </div>
 
             <div className="flex flex-row justify-center p-2 md:p-5 gap-5 flex-wrap">
-                <div className="bg-stone-950 p-4 rounded-2xl border border-yellow-800 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
+                <div className="bg-stone-950 p-4 rounded-2xl border w-sm border-[var(--card-border)] hover:border-[var(--hover-border)] hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between" style={{ '--card-border': theme.cardColor, '--hover-border': theme.hoverCardColor, }}>
                     <div className="relative">
                         <img src="kitchen-preview.png" alt="kitchen-preview" className="rounded-2xl border border-gray-800 w-full h-72  object-cover" />
                         <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Full Stack</div>
@@ -190,14 +194,14 @@ const ProjectSection = function () {
             {/* CLONES */}
 
             <div className="py-5">
-                <h5 className=" text-2xl py-2 font-bold text-orange-600">Clones</h5>
-                <p className="">A series of <b className="text-orange-500">initial</b> projects, usually clones of existing websites, all developed in less than a day to test and hone my CSS/React skills.</p>
+                <h5 className=" text-2xl py-2 font-bold " style={{ color: theme.titlesColor }}>Clones</h5>
+                <p className="">A series of <b style={{ color: theme.textColor }}>initial</b> projects, usually clones of existing websites, all developed in less than a day to test and hone my CSS/React skills.</p>
             </div>
             {/* cards container */}
             <div className="flex flex-row justify-center p-2 md:p-5 gap-5 flex-wrap">
                 {/* cards */}
                 {/* Spotify vanilla */}
-                <div className="bg-stone-950 p-4 rounded-2xl border border-yellow-800 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
+                <div className="bg-stone-950 p-4 rounded-2xl border w-sm border-[var(--card-border)] hover:border-[var(--hover-border)] hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between" style={{ '--card-border': theme.cardColor, '--hover-border': theme.hoverCardColor, }}>
                     <div className="relative">
                         <img src="spotify-preview.png" alt="spotify-preview" className="rounded-2xl border border-gray-800 w-full h-72  object-cover" />
                         <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Front End</div>
@@ -221,7 +225,7 @@ const ProjectSection = function () {
                     
                 </div>
                 {/* netflix */}
-                <div className="bg-stone-950 p-4 rounded-2xl border border-yellow-800 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
+                <div className="bg-stone-950 p-4 rounded-2xl border w-sm border-[var(--card-border)] hover:border-[var(--hover-border)] hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between" style={{ '--card-border': theme.cardColor, '--hover-border': theme.hoverCardColor, }}>
                     <div className="relative">
                         <img src="netflix-preview.png" alt="netflix-preview" className="rounded-2xl border border-gray-800 w-full h-72  object-cover" />
                         <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Front End</div>
@@ -244,7 +248,7 @@ const ProjectSection = function () {
 
 
                 {/* Music App */}
-                <div className="bg-stone-950 p-4 rounded-2xl border border-yellow-800 w-sm hover:border-red-800 hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between">
+                <div className="bg-stone-950 p-4 rounded-2xl border w-sm border-[var(--card-border)] hover:border-[var(--hover-border)] hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between" style={{ '--card-border': theme.cardColor, '--hover-border': theme.hoverCardColor, }}>
                     <div className="relative">
                         <img src="music-preview.png" alt="music-preview" className="rounded-2xl border border-gray-800 w-full h-72  object-cover" />
                         <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Front End</div>

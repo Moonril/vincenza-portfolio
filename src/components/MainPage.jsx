@@ -15,10 +15,7 @@ const MainPage = function () {
         <section className="relative min-h-screen bg-black text-center overflow-hidden z-0">
             <div className="absolute inset-0 -z-10 w-full h-full">
                 <Particles
-                    particleColors={theme.particleColors}// Autumn  giallo-rosso
-                    //particleColors={['#A5DEF3', '#06232D']} // Winter azzurro chiaro - blu oltremare
-                    //particleColors={['#ff66ff', '#CC0066']} // Spring rosa-viola
-                    //particleColors={['#7FF942', '#226500']} // Summer aquamarine - verde
+                    particleColors={theme.particleColors}
                     particleCount={1300}
                     particleSpread={5}
                     speed={0.03}

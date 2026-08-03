@@ -1,10 +1,15 @@
+import { useSeasonTheme } from "../hooks/useSeasonTheme";
+
 const SkillSection = function () {
+
+    const theme = useSeasonTheme();
+
     /* text-white p-5 flex flex-row justify-center gap-2 my-4 overflow-x-auto */
     return (
         <section className="text-white my-6 px-5 overflow-x-auto">
             <div className="flex flex-row justify-center gap-4 w-max md:w-full">
 
-                <div className="shrink-0 min-w-[150px] border border-orange-900 rounded-2xl p-4 pe-20 text-start  bg-linear-to-br from-stone-900 to-stone-800">
+                <div className="shrink-0 min-w-[150px] border rounded-2xl p-4 pe-20 text-start  bg-linear-to-br from-stone-900 to-stone-800" style={{ borderColor: theme.skillColor }}>
                     <h3 className="font-bold text-xl mb-2">Front End</h3>
                     <p>Javascript</p>
                     <p>Typescript</p>
@@ -13,13 +18,13 @@ const SkillSection = function () {
                     <p>Bootstrap</p>
                     <p>Tailwind css</p>
                 </div>
-                <div className="shrink-0 min-w-[150px] border border-orange-900 rounded-2xl p-4 pe-20 text-start  bg-stone-950">
+                <div className="shrink-0 min-w-[150px] border rounded-2xl p-4 pe-20 text-start  bg-stone-950" style={{ borderColor: theme.skillColor }}>
                     <h3 className="font-bold text-xl mb-2">Back End</h3>
                     <p>Java</p>
                     <p>Spring</p>
                     <p>PostgreSQL</p>
                 </div>
-                <div className="shrink-0 min-w-[150px] border border-orange-900 rounded-2xl p-4 pe-20 text-start  bg-stone-950">
+                <div className="shrink-0 min-w-[150px] border rounded-2xl p-4 pe-20 text-start  bg-stone-950" style={{ borderColor: theme.skillColor }}>
                     <h3 className="font-bold text-xl mb-2">Extra</h3>
                     <p>Vercel</p>
                     <p>Supabase</p>
