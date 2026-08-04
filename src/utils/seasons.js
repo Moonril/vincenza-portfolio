@@ -2,7 +2,7 @@ export const SEASONS = {
   winter: {
     months: [11, 0, 1], 
 
-    bannerImage: 'beach-5.png', 
+    bannerImage: 'winter.png', 
 
     particleColors: ['#99C2FF', '#0aaec4', '#0a2fc4'], 
 
@@ -20,9 +20,9 @@ export const SEASONS = {
     skillColor: '#0aaec4',
   },
   spring: {
-    months: [2, 3, 7],
+    months: [2, 3, 4],
     
-    bannerImage: 'beach-5.png', 
+    bannerImage: 'spring.png', 
 
     particleColors: ['#de37a1', '#610dd6'], 
 
@@ -41,20 +41,20 @@ export const SEASONS = {
     
   },
   summer: {
-    months: [5, 6, 8],
+    months: [5, 6, 7],
  
     bannerImage: 'beach-5.png', 
 
-    particleColors: ['#42f5aa', '#04631a'], 
+    particleColors: ['#42f5aa', '#04631a', '#006646'], 
 
-    nameColors: ['#04631a', '#42f5aa'],
-    titlesColor: '#04631a', 
+    nameColors: ['#00B1CC', '#42f5aa'],
+    titlesColor: '#009970', 
     textColor: '#09d99d', 
 
-    sideMenuColor: ['#04631a', '#42f5aa'], 
+    sideMenuColor: ['#009970', '#42f5aa'], 
 
-    cardColor: '#094ed9', 
-    hoverCardColor: '#09d99d',  
+    cardColor: '#00B1CC', 
+    hoverCardColor: '#008599',  
     highlightColor: '#86efac',
     hoverHighlightColor: '#22d3ee',
 
