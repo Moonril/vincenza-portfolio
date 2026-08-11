@@ -162,7 +162,11 @@ const ProjectSection = function () {
                 <p>Due to growing interest, I began exploring Artificial Intelligence more deeply. This section showcases a series of projects built using Lovable and Supabase. My workflow involves designing the initial prompts, refining the generated product through Lovable, exporting the code to GitHub, and then personally reviewing and improving it to ensure quality, structure, and functionality.</p>
             </div>
 
+
             <div className="flex flex-row justify-center p-2 md:p-5 gap-5 flex-wrap">
+           
+            {/* kitchen Hub */}
+           
                 <div className="bg-stone-950 p-4 rounded-2xl border w-sm border-[var(--card-border)] hover:border-[var(--hover-border)] hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between" style={{ '--card-border': theme.cardColor, '--hover-border': theme.hoverCardColor, }}>
                     <div className="relative">
                         <img src="kitchen-preview.png" alt="kitchen-preview" className="rounded-2xl border border-gray-800 w-full h-72  object-cover" />
@@ -188,8 +192,40 @@ const ProjectSection = function () {
                         
                     </div>
                 </div>
+
+                {/* Thread */}
+                
+                <div className="bg-stone-950 p-4 rounded-2xl border w-sm border-[var(--card-border)] hover:border-[var(--hover-border)] hover:scale-103 transition delay-50 duration-500 ease-in-out flex flex-col justify-between" style={{ '--card-border': theme.cardColor, '--hover-border': theme.hoverCardColor, }}>
+                    <div className="relative">
+                        <img src="thread-preview.png" alt="kitchen-preview" className="rounded-2xl border border-gray-800 w-full h-72  object-cover" />
+                        <div className="absolute right-8 top-6 bg-cyan-700 px-2 rounded-2xl">Full Stack</div>
+                    </div>
+                    <h5 className="pt-4 pb-2 text-xl font-bold text-left">Thread</h5>
+                    <p className="py-2 text-left">
+                        A web app to keep track of my DIY projects created through Lovable, deployed through Vercel and Supabase, complete with functioning Login feature and handling of recipes.
+                    </p>
+                    <div className="p-2 flex flex-row justify-start flex-wrap gap-2">
+                        <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><img width="20" height="20" src="https://img.icons8.com/fluency/48/typescript--v2.png" alt="typescript--v2" className="me-1"/><span className="ps-1">Typescript</span></p>
+                        <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"> <img width="20" height="20" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png" alt="external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo" className="me-1"/> React</p>
+                        <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><img width="20" height="20" src="https://img.icons8.com/fluency/48/tailwind_css.png" alt="tailwind_css" className="me-1" /> Tailwind</p>
+                        <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><img width="20" height="20" src="lovable-icon.png" alt="supabase" className="me-1"/> Lovable</p>
+                        <p className="bg-slate-900 border border-slate-400 rounded-xl py-1 px-4 flex flex-row items-center"><img width="20" height="20" src="https://img.icons8.com/fluency/48/supabase.png" alt="supabase" className="me-1"/> Supabase</p>
+                        
+                        
+                    </div>
+                    <div className="flex flew-row justify-center p-3">
+                        <a href="https://github.com/Moonril/fabric-muse-thread" target="_blank"  className="flex flew-row me-2 py-2   ps-2 pe-5 bg-slate-700 rounded-md cursor-pointer hover:opacity-70"><img src="github-48.png" alt="github icon" width={22} className="me-2" />Github</a>
+                        
+                        <a href="https://fabric-muse-thread.vercel.app/" target="_blank" className="flex flew-row ms-2 py-2 px-5 bg-cyan-800 rounded-md cursor-pointer hover:opacity-70 me-2"><img width="20" height="20" src="icons8-enlazar-50.png" alt="css logo" className="me-1"/> Demo</a>
+                        
             
-            </div>   
+                    </div>
+                </div>
+            
+            </div> 
+
+
+              
 
             {/* CLONES */}
 
